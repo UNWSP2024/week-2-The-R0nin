@@ -18,7 +18,7 @@ def calculate_total_purchase():
     print(PItem4, Item4)
     print(PItem5, Item5)
 
-    Item_total = (PItem1 + PItem2 + PItem3 + PItem4 + PItem5)
+    Item_total = float(PItem1 + PItem2 + PItem3 + PItem4 + PItem5)
     print("Total: ", Item_total)
 
     Sales_tax = (Item_total * (7 / 100))
@@ -28,5 +28,7 @@ def calculate_total_purchase():
     # then displays the subtotal of the sale, 
     # the amount of sales tax, and the total.  
     # Assume the sales tax is 7 percent.
+
+calculate_total_purchase()
 
 calculate_total_purchase()
