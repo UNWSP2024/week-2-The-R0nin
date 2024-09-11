@@ -13,4 +13,4 @@ def average_age():
     # Print the results
     print("the result is:", results_f)
 # Line which calls the above function.
-average_age() 
+average_age()
